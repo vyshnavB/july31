@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .left {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .company-logo {
+            max-width: 100%;
+            height: auto;
+        }
+        .company-details {
+            margin-top: 20px;
+        }
+        .company-details p {
+            margin: 5px 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons i {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #555555;
+        }
+        .center {
+            flex: 2;
+            padding: 20px;
+            margin-left: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-us {
+            margin-top: 30px;
+        }
+        .company-images {
+            margin-top: 30px;
+        }
+        .company-images img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img class="company-logo" src="/img/logo1.webp" alt="Company Logo">
+            <div class="company-details">
+                <p>Company Name</p>
+                <p>Company Address</p>
+                <p>Phone: xxx-xxx-xxxx</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+
+                    <!-- Add more social media icons as needed -->
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="about-us">
+                <h2>About Us</h2>
+                <p>Description about the company goes here. Provide some information about the company's history, values, mission, and services.</p>
+            </div>
+            <div class="company-images">
+                <h2>Company Images</h2>
+                <img src="/img/b8a356f8325aa0d7b4d6b8bd7678f52702b1e00d8fb450ca161e3f97167e01ef._RI_.jpg" alt="Company Image 1">
+                <img src="/img/Students_Campus_Oct_2021_Hero-Image_Cropped-scaled.jpg" alt="Company Image 2">
+                <!-- Add more image elements as needed -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
